@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* questão 3 */
+
+int v[9];
+int i, k, valorMax, valorMin, valorTotal;
+float c , media;
+
+int main(int argc, char *argv[]) 
+{
+	printf("Digite 10 numeros inteiros\n");
+
+    for (i=0;i<=9;i++){
+    	printf("\nNumero %d: ",i+1)
+        scanf("%d",&v[i]);
+        if (v[i]==v[i-1]+1){
+            break;
+            }
+        k=i;	
+	
+	
+	
+	
+	system("pause");
+	return 0;
+}
